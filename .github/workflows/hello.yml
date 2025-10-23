@@ -6,7 +6,7 @@ on:
 
 jobs:
   say-hello:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Exibir mensagem no log
         run: echo "Github Actions running"
